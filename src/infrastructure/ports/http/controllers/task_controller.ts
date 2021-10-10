@@ -6,5 +6,5 @@ const { createTask } = taskCases({
 })
 
 export const taskController = {
-  create: () => { }
+  create: createTask
 }
